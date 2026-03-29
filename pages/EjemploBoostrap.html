@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Bootstrap - Row, Col, Container</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Ejemplo de Bootstrap: Container, Row y Col</h1>
+    </header>
+    
+    <main class="container my-4">
+        <section>
+            <h2>Explicación</h2>
+            <p>El <strong>container</strong> es el contenedor principal que centra el contenido. Dentro, usamos <strong>row</strong> para filas y <strong>col</strong> para columnas.</p>
+        </section>
+        
+        <section class="my-4">
+            <h3>Ejemplo 1: Una fila con 3 columnas</h3>
+            <div class="row">
+                <div class="col bg-primary text-white p-3">Columna 1 (col)</div>
+                <div class="col bg-success text-white p-3">Columna 2 (col)</div>
+                <div class="col bg-warning text-dark p-3">Columna 3 (col)</div>
+            </div>
+        </section>
+        
+        <section class="my-4">
+            <h3>Ejemplo 2: Columnas con tamaños específicos</h3>
+            <div class="row">
+                <div class="col-4 bg-info text-dark p-3">Columna 1 (col-4)</div>
+                <div class="col-8 bg-danger text-white p-3">Columna 2 (col-8)</div>
+            </div>
+        </section>
+        
+        <section class="my-4">
+            <h3>Ejemplo 3: Múltiples filas en un container</h3>
+            <div class="row">
+                <div class="col-12 bg-secondary text-white p-3">Fila 1: Columna completa (col-12)</div>
+            </div>
+            <div class="row">
+                <div class="col-6 bg-light text-dark p-3">Fila 2: Columna 1 (col-6)</div>
+                <div class="col-6 bg-dark text-white p-3">Fila 2: Columna 2 (col-6)</div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Ejemplo Bootstrap</p>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
